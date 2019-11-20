@@ -147,7 +147,13 @@ npm run dev
 
 ...this runs both the server and client and will automatically open a browser window with the project. This shows any changes you make to the code on your local machine, but no changes are yet in the live version.
 
-4. Make changes to the code in visual studio code, then:
+4. Make changes to the code in visual studio code
+   Main interesting folders are:
+   /client/src/App.js - this is the wrapper for the whole page
+   /client/src/components/Blog.js - this is where you enter entries for the blog, also check out the other components in this folder.
+   /client/src/sass/main.scss - this is where the styles live
+
+5. Once you're done with your changes to the code, push them to GitHub like this:
 
 ```
 (in the first terminal window, not the one you wrote 'npm run dev' in)
@@ -158,6 +164,8 @@ git push (you'll be prompted to set the upstream branch, use the given suggestio
 go to https://github.com/osaisacson/egnahemsfabriken and make a PR (just press the pretty obvious button called 'Compare & pull request') doublecheck that it is from your branch to the master branch
 
 ```
+
+Done! Let someone know that you've done changes that they can merge, or do the merge yourself (see steps in the Build build buldin section below).
 
 ### Build, build, buildin.
 

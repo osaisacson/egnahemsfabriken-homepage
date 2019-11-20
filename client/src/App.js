@@ -1,21 +1,14 @@
-import React from "react";
-import "./sass/main.scss";
-
-//Import fake data
-import "./dataset.js";
+import React from 'react';
+import './sass/main.scss';
+import Blog from './components/Blog';
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
   render() {
     return (
-      <div className="App" style={backgroundImage}>
+      <div className="App">
         <div className="main-content-wrapper">
-          <br></br>
           <h1>Egnahemsfabriken</h1>
+          <Blog></Blog>
         </div>
       </div>
     );
