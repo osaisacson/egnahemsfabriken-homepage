@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 export default class Blog extends Component {
   constructor(props) {
@@ -10,7 +10,7 @@ export default class Blog extends Component {
   render() {
     return (
       <>
-        <h1>Title</h1>
+        <h1>Grrrr</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
           tincidunt elementum tempus. Sed quis diam a risus pulvinar sodales.
