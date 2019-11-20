@@ -232,7 +232,7 @@ heroku login
 ```
 
 cd .. (to move to root)
-heroku create -b https://github.com/osaisacson/name-of-project.git
+heroku create -b https://github.com/osaisacson/egnahemsfabriken.git
 
 ```
 
