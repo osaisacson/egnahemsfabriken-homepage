@@ -1,5 +1,5 @@
 {
-  "name": "demos-uk",
+  "name": "egnahemsfabriken",
   "version": "1.0.0",
   "engines": {
     "node": "10.16.3"
@@ -15,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/osaisacson/demos-uk.git"
+    "url": "git+https://github.com/osaisacson/egnahemsfabriken.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/osaisacson/demos-uk/issues"
+    "url": "https://github.com/osaisacson/egnahemsfabriken/issues"
   },
-  "homepage": "https://github.com/osaisacson/demos-uk#readme",
+  "homepage": "https://github.com/osaisacson/egnahemsfabriken#readme",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.22",
     "@fortawesome/free-solid-svg-icons": "^5.10.2",
